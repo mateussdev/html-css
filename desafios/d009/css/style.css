@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    align-content: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    align-content: center;
+}
+
+img{
+    margin: 5px;
+}
+

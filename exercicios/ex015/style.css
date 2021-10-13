@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    background-color: white;
+    
+}
+
+h2{
+    background-color: lightslategray;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    color: white;
+    background-color: lightslategray;
+    text-decoration: none;
+    padding: 5px;
+}
