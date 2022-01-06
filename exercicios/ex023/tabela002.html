@@ -28,12 +28,16 @@
     }
 
     thead, tfoot{
-      background-color: gray;
+      background-color: rgb(32, 32, 32);
       color: white;
     }
 
     td.num{
       text-align: right;
+    }
+
+    tbody > tr:nth-child(odd){
+      background-color: lightgray;
     }
   </style>
 </head>
@@ -55,7 +59,7 @@
     <thead>
       <tr>
         <th scope="col">Estado</th>
-        <th scope="col" style="width:100px;">Área(km²)</th>
+        <th scope="col">Área(km²)</th>
       </tr>
     </thead>
     <tbody>
