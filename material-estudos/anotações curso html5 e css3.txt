@@ -1,0 +1,12 @@
+Anotações curso HTML5 e CSS3:
+
+materias disponiveis em: github.com/gustavoguanabara
+endereço importante tmb: gustavoguanabara.github.io
+
+bibliografias recomendadas:
+Mozilla Developer Network(MDN);
+World Wide Web Consortium(W3C Standards);
+Web Hypertext Application Technology Working Group(WHATWG Living Standard);
+W3Schools;
+
+sugestão de documentário sobre a internet: https://youtu.be/TNQsmPf24go
