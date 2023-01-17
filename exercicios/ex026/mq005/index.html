@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu Responsivo</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/media-query.css" />
   </head>
-  <body>
+  <body onresize="mudouTamanho()">
     <header>
       <h1>Meu Site</h1>
       <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
@@ -69,6 +73,15 @@
     </main>
 
     <script>
+      function mudouTamanho() {
+        const menu = document.getElementById("menu-items");
+        if (window.innerWidth >= 768) {
+          menu.style.display = "block";
+        } else {
+          menu.style.display = "none";
+        }
+      }
+
       function clickMenu() {
         const menu = document.getElementById("menu-items");
         if (menu.style.display == "block") {
